@@ -39,6 +39,7 @@ ol {
 .content {
   width: 1140px;
   min-height: 534px;
+  padding-bottom: 130px;
   padding-top: 130px;
   padding-left: 30px;
   padding-right: 30px;
