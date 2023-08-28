@@ -151,8 +151,7 @@ ol {
 }
 
 .search-form__checkbox[type="checkbox"]:active,
-.search-form__checkbox[type="checkbox"]:checked
-  + .search-form__pseudo-checkbox::before {
+input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   content: "";
   min-inline-size: 15px;
   min-block-size: 15px;
@@ -168,7 +167,7 @@ ol {
   line-height: normal;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover:has(.search-form__label-text) {
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -220,6 +219,7 @@ ol {
   gap: 26px;
   padding-left: 30px;
   margin-top: auto;
+  min-height: 534px;
 }
 
 .title {
